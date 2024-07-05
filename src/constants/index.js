@@ -14,7 +14,7 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Tour Guide Ltd website where users can explore destinations within Bangladesh, view places, book travel packages, and hire guides.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB,express-js"],
     live:'https://tour-planners-ltd.web.app/'
   },
@@ -22,7 +22,7 @@ export const PROJECTS = [
     title: "food and beverages",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "An e-commerce application where users can purchase food and beverages, add items to their cart, and manage their orders.",
     technologies: ["HTML", "Tailwind", "React", "Firebase"],
     live:'https://food-king-52cd3.web.app/'
   },
@@ -30,7 +30,7 @@ export const PROJECTS = [
     title: " art or craft",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "An e-commerce website for showcasing and selling art and craft items, where users can browse products, add items to their cart, and make purchases.",
     technologies: ["HTML", "CSS", "React", "Bootstrap,firebase"],
     live:'https://mintie-art-and-craft.web.app/'
   },
