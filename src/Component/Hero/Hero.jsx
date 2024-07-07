@@ -11,7 +11,11 @@ const Hero = () => {
                         <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Frontend Developer</span>
                         <p className="my-2 max-w-xl py-6 font-light tracking-tight">{HERO_CONTENT}</p>
 
-                        <button className="btn border-b rounded-lg px-2 text-orange-400 py-1">Resume</button>
+                        <a href="https://drive.google.com/file/d/1nqDSGwaEQp_Ua_q4WWq5ZDSF2YwGQdLN/view" download>
+                            <button className="py-2 px-4 bg-blue-600 text-white font-medium rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                                Resume
+                            </button>
+                        </a>
                     </div>
 
                 </div>

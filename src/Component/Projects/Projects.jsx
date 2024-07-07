@@ -18,13 +18,19 @@ const Projects = () => {
                             </div>
                             <div className="w-full max-w-xl lg:w-3/4">
                                 <h6 className="mb-2 font-semibold">{project.title}</h6>
-                                <p className="mb-4 text-neutral-400">{project.description}</p>
+                                <p className="mb-4 text-neutral-400 ">{project.description}</p>
                                 {project.technologies.map((tech, idx) => (
                                     <span className="mr-2 rounded bg-neutral-900" key={idx}>
                                         {tech}
                                     </span>
                                 ))}
-                                <button onClick={() => window.open(project.live,'_blank')} className="text-white mt-4 bg-yellow-600 px-3 py-1 rounded-xl">Go live</button>
+                                <div>
+                                    <button onClick={() => window.open(project.live, '_blank')} className="text-white mt-4 bg-yellow-600 px-3 py-1 rounded-xl mr-4">Go live</button> 
+                                
+                                    <button onClick={() => window.open(project.client, '_blank')} className="text-white mt-4 bg-yellow-600 px-3 py-1 rounded-xl mr-4">Github Client</button> 
+                                
+                                    <button onClick={() => window.open(project.github, '_blank')} className="text-white mt-4 bg-yellow-600 px-3 py-1 rounded-xl">Github Server</button> 
+                                </div>
                             </div>
 
                         </div>)

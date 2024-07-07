@@ -10,6 +10,12 @@ const Navbar = () => {
                 {/* <img className='mx-2 w-10' src={logo} alt="" /> */}
                 <h1>Imran</h1>
             </div>
+            <div className="flex gap-8">
+                <h2>Education</h2>
+                <h2>Contacts</h2>
+                <h2>Projects</h2>
+                <h2>Technologies</h2>
+            </div>
             <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
                 <FaLinkedin></FaLinkedin>
                 <FaGithub></FaGithub>

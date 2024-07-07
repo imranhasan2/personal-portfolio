@@ -11,28 +11,34 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Tours-Planners-Bd",
     image: project1,
     description:
       "Tour Guide Ltd website where users can explore destinations within Bangladesh, view places, book travel packages, and hire guides.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB,express-js"],
-    live:'https://tour-planners-ltd.web.app/'
+    live:'https://tour-planners-ltd.web.app/',
+    client:'https://github.com/imranhasan2/tour-planners-ltd-client',
+    serve:'https://github.com/imranhasan2/tour-planner-ltd-server',
   },
   {
-    title: "food and beverages",
+    title: "food King",
     image: project2,
     description:
       "An e-commerce application where users can purchase food and beverages, add items to their cart, and manage their orders.",
-    technologies: ["HTML", "Tailwind", "React", "Firebase"],
-    live:'https://food-king-52cd3.web.app/'
+    technologies: ["HTML", "Tailwind", "React", "Firebase","MONGODB"],
+    live:'https://food-king-52cd3.web.app/',
+    client:'https://github.com/imranhasan2/food-king-client-side',
+    serve:'https://github.com/imranhasan2/food-king-server',
   },
   {
-    title: " art or craft",
+    title: " art and craft",
     image: project3,
     description:
       "An e-commerce website for showcasing and selling art and craft items, where users can browse products, add items to their cart, and make purchases.",
     technologies: ["HTML", "CSS", "React", "Bootstrap,firebase"],
-    live:'https://mintie-art-and-craft.web.app/'
+    live:'https://mintie-art-and-craft.web.app/',
+    client:'https://github.com/imranhasan2/mintie-art-and-craft-client',
+    serve:'https://github.com/imranhasan2/mintie-art-and-craft-server'
   },
   
 ];
