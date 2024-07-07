@@ -24,7 +24,7 @@ const Contact = () => {
             );
     };
     return (
-        <div className='mb-8'>
+        <div id='contacts' className='mb-8'>
             <div>
                 <h3 className='flex justify-center mb-8'>Contact With me</h3>
             </div>
