@@ -29,7 +29,7 @@ const Projects = () => {
                                 
                                     <button onClick={() => window.open(project.client, '_blank')} className="text-white mt-4 bg-yellow-600 px-3 py-1 rounded-xl mr-4">Github Client</button> 
                                 
-                                    <button onClick={() => window.open(project.github, '_blank')} className="text-white mt-4 bg-yellow-600 px-3 py-1 rounded-xl">Github Server</button> 
+                                    <button onClick={() => window.open(project.serve, '_blank')} className="text-white mt-4 bg-yellow-600 px-3 py-1 rounded-xl">Github Server</button> 
                                 </div>
                             </div>
 
